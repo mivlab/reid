@@ -10,6 +10,7 @@ from torch.utils.data import DataLoader
 from dataloader import mnist_loader as ml
 from models.cnn import Net
 
+# yl's note
 
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
 parser.add_argument('--datapath', required=True, help='data path')
